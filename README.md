@@ -3,7 +3,7 @@ This is a minimal set of the code to reproduce the issue that Truffle failed to 
 I basically followed [the official doc](https://docs.binance.org/smart-chain/developer/deploy/truffle.html).
 
 
-# The steps to reproduce
+## Steps to reproduce
 ```
 $ echo ${YOUR MNEMONIC} > .secret
 $ npm install
@@ -15,7 +15,7 @@ Unhandled error.({ code: -32000, message: 'header not found' })
 ...
 ```
 
-# Tested Truffle version
+## Truffle version
 ```
 $ truffle version
 Truffle v5.4.25 (core: 5.4.25)
