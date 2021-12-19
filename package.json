@@ -1,0 +1,25 @@
+{
+  "name": "truffle-bsc-deploy-investigation",
+  "version": "1.0.0",
+  "description": "This is a minimal set of the code to reproduce the issue that it failed to deploy to BSC main net with Truffle while it worked for test net.",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hrs23/truffle-bsc-deploy-investigation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hrs23/truffle-bsc-deploy-investigation/issues"
+  },
+  "homepage": "https://github.com/hrs23/truffle-bsc-deploy-investigation#readme",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^2.0.0"
+  }
+}
